@@ -12,6 +12,12 @@ registerApplication({
   activeWhen: ["/angular"],
 });
 
+registerApplication({
+  name: "angular2-app",
+  app: () => System.import("angular2-app"),
+  activeWhen: ["/angular2"],
+});
+
 start({
   urlRerouteOnly: true,
 });
