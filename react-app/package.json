@@ -1,7 +1,7 @@
 {
   "name": "@org1/react-app",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 9050 --env isLocal",
     "start:standalone": "webpack serve --env standalone",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
